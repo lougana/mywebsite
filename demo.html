@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+
+<html dir="ltr" lang="en-US">
+
+<head>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Luis Magaña | Web Designer</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+	
+	<style type="text/css">	
+	
+	/* PAGE LAYOUT STYLES */
+	
+	body{ margin: 0; font-family: arial, sans-serif; background: #eee;}
+	#wrapper2{ position:relative; width:100%; }
+	#main{ width: 960px; margin: 0 auto; background: #fff; border-left: 1px solid #ccc; border-right: 1px solid #ccc; }
+	.section{ min-height: 800px; padding: 0 0 50px 0; }
+	
+	/* NAVIGATION STYLES */
+	
+	.standardNav{
+		position: fixed !important;
+		overflow: visible;
+		/* top: 36%; */
+		left: 74%;
+		padding: 5px;
+		/* margin: -250px 0 0 -630px; */
+		width: 325px;
+		z-index: 9999;
+	}
+
+	.standardNav ul{
+		display: block;
+		margin: 0;
+		padding: 6px;
+		list-style: none;
+		-webkit-border-radius: 15px;
+		-moz-border-radius: 15px;
+		border-radius: 15px;
+		background: #fff;
+		-webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .3);
+		-moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .3);
+		box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .3);
+		display: inline-block;
+	}
+
+	.standardNav.left{
+		margin-left: -645px;
+	}
+	
+	.standardNav li{
+		display: inline-block;
+	}
+	
+	.standardNav li a{
+		display: block;	
+		font-weight: normal;
+		padding: 8px 10px;
+		text-decoration: none;
+		color: #666;
+		font-size: 12px;
+		display: inline-block;
+	}	
+	
+	.standardNav li a:hover{
+		color: #333;
+	}
+	
+	.standardNav li.active a{
+		font-weight: bold;
+		color: #000;
+	}
+
+	
+	</style>
+	
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+	<!-- LINK PAGE SCROLLER PRO JS FILE -->
+	<script type="text/javascript" src="js/jquery.pagescroller.lite.js"></script>
+	<!-- / -->
+
+	<script type="text/javascript">
+	
+	$(document).ready(function(){
+		
+		// initiate page scroller plugin
+		$('body').pageScroller({
+			navigation: '#nav'
+		});
+					
+	});
+		
+	</script>
+	
+</head>
+
+<body>
+	
+	<div id="nav" class="pageScrollerNav standardNav right dark">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Portfolio</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Skills</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</div>
+	
+	<div id="wrapper2">
+			<div class="section"><h1>Section 1</h1></div>
+			<div id="portfolio-scroll" class="section">
+				<h1 class="page-title">Portfolio Work</h1>
+				<div class="wrapper">
+			        <section>
+			          <ul id="gallery">
+			            <li>
+			              <a href="img/numbers-01.jpg">
+			                  <img src="img/numbers-01.jpg" alt="">
+			                  <p>This is demo text caption</p>
+			              </a>
+			            </li>
+			            <li>
+			            <a href="img/numbers-02.jpg">    
+			                <img src="img/numbers-02.jpg" alt="">
+			                <p>This is demo text caption</p>
+			            </a>
+			            </li>
+			            <li>
+			            <a href="img/numbers-06.jpg">    
+			                <img src="img/numbers-06.jpg" alt="">
+			                <p>This is demo text caption</p>
+			            </a>
+			            </li>
+			            <li>
+			            <a href="img/numbers-09.jpg">    
+			                <img src="img/numbers-09.jpg" alt="">
+			                <p>This is demo text caption</p>
+			            </a>
+			            </li>
+			             <li>
+			            <a href="img/numbers-12.jpg">    
+			                <img src="img/numbers-12.jpg" alt="">
+			                <p>This is demo text caption</p>
+			            </a>
+			            </li>  
+			          </ul>
+			        </section>
+			    </div>
+			</div>
+			<div class="section" id="about-me">
+				<h1 class="page-title">About Me</h1>
+				<div class=wrapper>
+				<section>
+			        <img src="img/luis.jpg" alt="Photograph of Nick Pettit" class="profile-photo">
+			        <h3>About</h3>
+			        <p>Hi, I'm Luis Magaña! This is my design portfolio where I share all of my favroite work. Heres a little about myself, I have 3 years work experience in front-end web development and currently enrolled at IRSC for my Bachelors in Graphics & Web Design. When I'm not designing things, I enjoy exercising, turning knobs in my home recording studio and spending quality time with my wife and two kids.</p>
+			        <p>If you'd like to follow me on Twitter, my username is <a href="http://twitter.com/louweezdm">@louweezdm</a>.</p>
+		      </section>
+			  </div>
+			</div>
+			<div class="section"><h1>Section 4</h1></div>
+			<div class="section" id="contact">
+				<h1 class="page-title">Contact</h1>
+				 <div class="wrapper">
+			      <section id="primary">
+			        <h3>General Information</h3>
+			        <p>I am currently looking for new design work, and available for freelance or onsite job contract. If you have any questions, please don't hesitate to contact me!</p>
+			        <p>Please only use phone contact for urgent inquiries. Otherwise, Twitter and email are the best way to reach me.</p>
+			      </section>
+			      <section id="secondary">
+			        <h3>Contact Details</h3>
+			        <ul class="contact-info">
+			          <li class="phone"><a href="tel:561-373-6641">561-373-6641</a></li>
+			          <li class="mail"><a href="mailto:lmaganmbox@gmail.com">lmaganmbox@gmail.com</a></li>
+			          <li class="twitter"><a href="http://twitter.com/intent/tweet?screen_name=louweezdm">@louweezdm</a></li>
+			        </ul>
+			      </section>
+			       <footer>
+				        <a href="http://facebook.com/imloufresco"><img src="img/facebook-wrap.png" alt="Facbook Icon" class="social-icon"></a>
+				        <a href="http://twitter.com/louweezdm"><img src="img/twitter-wrap.png" alt="Twitter Icon" class="social-icon"></a>
+				        <p>&copy; 2014 Luis Magaña.</p>
+			      </footer>
+			</div>
+		</div><!-- [END] #main -->
+	</div><!-- [END] #wrapper -->
+	
+</body><!-- [END] body -->
+</html><!-- [END] html -->
